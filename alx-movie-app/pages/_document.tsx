@@ -5,9 +5,9 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#FFFFFF" />
+        <meta name="theme-color" content="#0070f3" />
       </Head>
-      <body>
+      <body className="antialiased">
         <Main />
         <NextScript />
       </body>
